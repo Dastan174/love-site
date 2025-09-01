@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+/* body {
+  background-image: url("https://img.freepik.com/free-vector/blurred-valentine-s-day-wallpaper_23-2148819570.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+} */
+body {
+  background: #fce4ec; /* светло-розовый фон */
+  color: #333; /* основной текст */
+}
+
+h1,
+h2,
+h3 {
+  color: #c2185b; /* бордовый акцент для заголовков */
+}
+
+a {
+  color: #e91e63; /* ярко-розовый для ссылок */
+}
+
+.highlight {
+  color: #9c27b0; /* фиолетовый для акцентных слов */
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 24px;
+  font-weight: 500;
+}
+p,
+a,
+span {
+  font-size: 20px;
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 9px 15px;
+  background: yellow;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+  @media (max-width: 640px) {
+    max-width: 475px;
+    padding: 0 20px;
+  }
+  @media (max-width: 475px) {
+    max-width: 350px;
+    padding: 0 8px;
+  }
+}

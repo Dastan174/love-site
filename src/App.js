@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import Hero from "./components/hero/Hero";
 import Banner from "./components/banner/Banner";
+import Four from "./components/four/Four";
 
 const App = () => {
   const audioRef = useRef(null);
@@ -29,12 +30,13 @@ const App = () => {
   }, []);
   return (
     <div>
+      <Banner />
       <audio ref={audioRef} autoPlay loop muted>
         <source src="/assets/сенин суротун.m4a" type="audio/mpeg" />
         Ваш браузер не поддерживает аудио.
       </audio>
-      <Banner />
       <Hero />
+      <Four />
     </div>
   );
 };

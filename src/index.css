@@ -65,3 +65,12 @@ button {
     padding: 0;
   }
 }
+
+.main {
+  padding-block: 10px;
+  /* border-bottom: 4px solid rgb(234, 67, 95); */
+  img {
+    max-width: 475px;
+    width: 100%;
+  }
+}

@@ -3,11 +3,8 @@ import styles from "./hero.module.css";
 
 const Hero = () => {
   return (
-    <div>
-      <div className={styles.heroText}>
-        <h1></h1>
-      </div>
-      <div className={styles.heroImg}></div>
+    <div className={styles.main}>
+      <img src="/assets/hero.png" alt="" />
     </div>
   );
 };
